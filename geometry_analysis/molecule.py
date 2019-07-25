@@ -4,9 +4,10 @@ A python package for the MolSSI Software Summer School.
 Contains a molecule class
 """
 
-#import numpy as np
+import numpy as np
 
-from measure import calculate_angle, calculate_distance, np
+#from geometry_analysis.measure import calculate_angle, calculate_distance, np
+from .measure import calculate_angle, calculate_distance, np
 
 class Molecule:
     def __init__(self, name, symbols, coordinates):
