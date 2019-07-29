@@ -19,7 +19,8 @@ Available techniques:
    :maxdepth: 2
    :caption: Contents:
 
-    something
+   something
+   api
 
 
 Indices and tables
